@@ -28,4 +28,4 @@ You’ll create a Streamlit web app that allows users to:
 
 * Make sure to edit and commit app.py and requirements.txt.
 * Try to peploy on streamlit. If you can deploy it, provide the url to your web app below:
-  * URL:   
+  * URL: https://medals-visualization.streamlit.app/
