@@ -18,6 +18,10 @@ col1, col2 = st.columns(2)
 # Load the medals wide dataset
 df = px.data.medals_wide()
 
+# Initialize chart figures
+fig_bar = None
+fig_pie = None
+
 # Plot the bar chart
 if show_bar:
   fig_bar = px.bar(
