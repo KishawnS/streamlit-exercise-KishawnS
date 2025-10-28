@@ -27,14 +27,14 @@ if show_bar:
       title=f'Medals Count ({medal})'
   )
 
-fig_bar.update_layout(
-    title_x = 0.5,
-    xaxis_title = 'Country',
-    yaxis_title = 'Count',
-    width = 300, height = 300
-)
-
-col1.plotly_chart(fig_bar, use_container_width=True)
+  fig_bar.update_layout(
+      title_x = 0.5,
+      xaxis_title = 'Country',
+      yaxis_title = 'Count',
+      width = 300, height = 300
+  )
+  
+  col1.plotly_chart(fig_bar, use_container_width=True)
 
 # Plot the pie chart
 if show_pie:
@@ -45,9 +45,10 @@ if show_pie:
       title=f'Medals Count ({medal})'
   )
 
-fig_pie.update_layout(
-    title_x = 0.5,
-    width = 300, height = 300
-)
-
-col2.plotly_chart(fig_pie, use_container_width=True)
+  fig_pie.update_layout(
+      title_x = 0.5,
+      width = 300, height = 300
+  )
+  
+  col2.plotly_chart(fig_pie, use_container_width=True)
+  
